@@ -114,7 +114,7 @@ function loopy() {
 				<span class="comments">死生契阔，</span><br />
 				<span class="comments">与子成说。</span><br />
 				<span class="comments">执子之手，</span><br />
-				<span class="comments">与子偕老。</span><br />
+				<span class="comments">与子偕老。</span><br /><br /><br />
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
@@ -185,8 +185,9 @@ function loopy() {
 			adjustCodePosition();
 			$("#code").css("display", "none")
 			setTimeout(function () {
-				$("#code").css("display", "inline")
-				$("#code").typewriter();
+				// $("#code").css("display", "inline")
+				$("#code").fadeIn(3000)
+				// $("#code").typewriter();
 			}, 11000);
 		}
 	</script>
